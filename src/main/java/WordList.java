@@ -12,7 +12,7 @@ public class WordList
   {
     /* to be implemented in part (a) */
     int sum = 0; 
-    for (int i = 0; i < myListisize(); i++){
+    for (int i = 0; i < myList.size(); i++){
       if (myList.get(i).length == len)
           sum ++; 
     }
@@ -22,7 +22,7 @@ public class WordList
   public void removeWordsOfLength(int len)
   {
     /* to be implemented in part (b) */
-    for (int i = 0; I < myList.size(); i++){
+    for (int i = 0; i < myList.size(); i++){
       if (myList.get(i).length == len){
         myList.remove(i); 
         i--; 
